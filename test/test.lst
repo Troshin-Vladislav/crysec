@@ -1,0 +1,15 @@
+-- xor --
+
+encryption information by method xor:
+./bin/crysec --in ./data/login.pass --method xor --key B --encrypt --out ./data/xor/login.pass.enc
+
+decryption information by method xor:
+./bin/crysec --in ./data/xor/login.pass.enc --method xor --key B --decrypt
+
+-- caesar --
+
+ecryption information by method caesar:
+./bin/crysec --in ./data/login.pass --method caesar --key 3 --encrypt --out ./data/caesar/login.pass.enc
+
+decryption information by method caesar:
+./bin/crysec --in ./data/caesar/login.pass.enc --method caesar --key 3 --decrypt
