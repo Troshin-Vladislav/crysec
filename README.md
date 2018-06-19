@@ -39,11 +39,12 @@ EXAMPLES:
 
 Encrypt information by method Caesar with shift 1
 Encrypt contain in file login.txt
-create files: 
-- login.txt.enc - encrypt info
-- login.txt.enc.key - key for decrypt info
 
 	$ crysec -i login.txt -m caesar --encrypt -k 1 -o login.txt.enc
+
+create files:
+- login.txt.enc - encrypt info
+- login.txt.enc.key - key for decrypt info
 
 Decrypt information by method caesar with shift 1
 
