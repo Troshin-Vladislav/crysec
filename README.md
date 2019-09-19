@@ -5,7 +5,7 @@ Program create for encrypt information
 Security information
 
 
-VERSION 8.0
+VERSION 0.8
 -----------
 
 + auto generation key
